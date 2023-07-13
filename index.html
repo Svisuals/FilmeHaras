@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CasaHaras</title>
+  <link rel="icon" type="image/png" href="sv.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+  
+    .video-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <script>
+    function startVideo() {
+      var video = document.getElementById('myVideo');
+      video.play();
+    }
+  </script>
+</head>
+<body>
+  <div class="video-container">
+    <video id="myVideo" controls autoplay>
+      <source src="Filmeharas.mp4" type="video/mp4">
+      Tu navegador no admite la reproducción de videos HTML5.
+    </video>
+  </div>
+  <script>
+    startVideo();
+  </script>
+</body>
+</html>
+
+
